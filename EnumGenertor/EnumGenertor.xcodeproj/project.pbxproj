@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		87C8942C2CE92FF500A54B4E /* GeneratorDependency */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 87C8942D2CE92FF500A54B4E /* Build configuration list for PBXAggregateTarget "GeneratorDependency" */;
+			buildPhases = (
+				87C894302CE92FFB00A54B4E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = GeneratorDependency;
+			packageProductDependencies = (
+			);
+			productName = Generator;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		87C894192CE92D6F00A54B4E /* EnumGenertor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C8940E2CE92D6E00A54B4E /* EnumGenertor.framework */; };
+		87C8943D2CE93A9D00A54B4E /* Localizable-en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87C8943B2CE93A9D00A54B4E /* Localizable-en.strings */; };
+		87C894432CE944C200A54B4E /* ExampleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C894422CE944C200A54B4E /* ExampleEnum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87C8941A2CE92D6F00A54B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C894052CE92D6E00A54B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C8940D2CE92D6E00A54B4E;
+			remoteInfo = EnumGenertor;
+		};
+		87C894312CE9301500A54B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C894052CE92D6E00A54B4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C8942C2CE92FF500A54B4E;
+			remoteInfo = Generator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87C8940E2CE92D6E00A54B4E /* EnumGenertor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EnumGenertor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C894182CE92D6F00A54B4E /* EnumGenertorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnumGenertorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C8943C2CE93A9D00A54B4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/Localizable-en.strings"; sourceTree = "<group>"; };
+		87C894422CE944C200A54B4E /* ExampleEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleEnum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		87C894202CE92D6F00A54B4E /* Exceptions for "EnumGenertor" folder in "EnumGenertor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				EnumGenertor.h,
+			);
+			target = 87C8940D2CE92D6E00A54B4E /* EnumGenertor */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		87C894102CE92D6E00A54B4E /* EnumGenertor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				87C894202CE92D6F00A54B4E /* Exceptions for "EnumGenertor" folder in "EnumGenertor" target */,
+			);
+			path = EnumGenertor;
+			sourceTree = "<group>";
+		};
+		87C8941C2CE92D6F00A54B4E /* EnumGenertorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EnumGenertorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C8940B2CE92D6E00A54B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C894152CE92D6F00A54B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C894192CE92D6F00A54B4E /* EnumGenertor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C894042CE92D6E00A54B4E = {
+			isa = PBXGroup;
+			children = (
+				87C894422CE944C200A54B4E /* ExampleEnum.swift */,
+				87C8943B2CE93A9D00A54B4E /* Localizable-en.strings */,
+				87C894102CE92D6E00A54B4E /* EnumGenertor */,
+				87C8941C2CE92D6F00A54B4E /* EnumGenertorTests */,
+				87C8940F2CE92D6E00A54B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C8940F2CE92D6E00A54B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C8940E2CE92D6E00A54B4E /* EnumGenertor.framework */,
+				87C894182CE92D6F00A54B4E /* EnumGenertorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		87C894092CE92D6E00A54B4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		87C8940D2CE92D6E00A54B4E /* EnumGenertor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C894212CE92D6F00A54B4E /* Build configuration list for PBXNativeTarget "EnumGenertor" */;
+			buildPhases = (
+				87C894092CE92D6E00A54B4E /* Headers */,
+				87C8940A2CE92D6E00A54B4E /* Sources */,
+				87C8940B2CE92D6E00A54B4E /* Frameworks */,
+				87C8940C2CE92D6E00A54B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C894322CE9301500A54B4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				87C894102CE92D6E00A54B4E /* EnumGenertor */,
+			);
+			name = EnumGenertor;
+			packageProductDependencies = (
+			);
+			productName = EnumGenertor;
+			productReference = 87C8940E2CE92D6E00A54B4E /* EnumGenertor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87C894172CE92D6F00A54B4E /* EnumGenertorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C894262CE92D6F00A54B4E /* Build configuration list for PBXNativeTarget "EnumGenertorTests" */;
+			buildPhases = (
+				87C894142CE92D6F00A54B4E /* Sources */,
+				87C894152CE92D6F00A54B4E /* Frameworks */,
+				87C894162CE92D6F00A54B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C8941B2CE92D6F00A54B4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				87C8941C2CE92D6F00A54B4E /* EnumGenertorTests */,
+			);
+			name = EnumGenertorTests;
+			packageProductDependencies = (
+			);
+			productName = EnumGenertorTests;
+			productReference = 87C894182CE92D6F00A54B4E /* EnumGenertorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C894052CE92D6E00A54B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					87C8940D2CE92D6E00A54B4E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					87C894172CE92D6F00A54B4E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					87C8942C2CE92FF500A54B4E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 87C894082CE92D6E00A54B4E /* Build configuration list for PBXProject "EnumGenertor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C894042CE92D6E00A54B4E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 87C8940F2CE92D6E00A54B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C8940D2CE92D6E00A54B4E /* EnumGenertor */,
+				87C894172CE92D6F00A54B4E /* EnumGenertorTests */,
+				87C8942C2CE92FF500A54B4E /* GeneratorDependency */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C8940C2CE92D6E00A54B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C8943D2CE93A9D00A54B4E /* Localizable-en.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C894162CE92D6F00A54B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87C894302CE92FFB00A54B4E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\npython3 generate_swift_file.py\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C8940A2CE92D6E00A54B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C894432CE944C200A54B4E /* ExampleEnum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C894142CE92D6F00A54B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87C8941B2CE92D6F00A54B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C8940D2CE92D6E00A54B4E /* EnumGenertor */;
+			targetProxy = 87C8941A2CE92D6F00A54B4E /* PBXContainerItemProxy */;
+		};
+		87C894322CE9301500A54B4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C8942C2CE92FF500A54B4E /* GeneratorDependency */;
+			targetProxy = 87C894312CE9301500A54B4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87C8943B2CE93A9D00A54B4E /* Localizable-en.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C8943C2CE93A9D00A54B4E /* en */,
+			);
+			name = "Localizable-en.strings";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C894222CE92D6F00A54B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = mactest.EnumGenertor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C894232CE92D6F00A54B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = mactest.EnumGenertor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87C894242CE92D6F00A54B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87C894252CE92D6F00A54B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87C894272CE92D6F00A54B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mactest.EnumGenertorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87C894282CE92D6F00A54B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mactest.EnumGenertorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87C8942E2CE92FF500A54B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87C8942F2CE92FF500A54B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C894082CE92D6E00A54B4E /* Build configuration list for PBXProject "EnumGenertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C894242CE92D6F00A54B4E /* Debug */,
+				87C894252CE92D6F00A54B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C894212CE92D6F00A54B4E /* Build configuration list for PBXNativeTarget "EnumGenertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C894222CE92D6F00A54B4E /* Debug */,
+				87C894232CE92D6F00A54B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C894262CE92D6F00A54B4E /* Build configuration list for PBXNativeTarget "EnumGenertorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C894272CE92D6F00A54B4E /* Debug */,
+				87C894282CE92D6F00A54B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C8942D2CE92FF500A54B4E /* Build configuration list for PBXAggregateTarget "GeneratorDependency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C8942E2CE92FF500A54B4E /* Debug */,
+				87C8942F2CE92FF500A54B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C894052CE92D6E00A54B4E /* Project object */;
+}
